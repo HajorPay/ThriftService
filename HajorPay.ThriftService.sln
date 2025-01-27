@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82F2FA19-043B-4D67-BC74-480327D81DA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajorPay.ThriftService.Application", "src\HajorPay.ThriftService.Application\HajorPay.ThriftService.Application.csproj", "{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajorPay.ThriftService.Domain", "src\HajorPay.ThriftService.Domain\HajorPay.ThriftService.Domain.csproj", "{E418ED1C-789E-4DF1-9084-472856433FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3565B736-88FA-44A6-B87E-E58D86B490FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HajorPay.ThriftService.Infrastructure", "src\HajorPay.ThriftService.Infrastructure\HajorPay.ThriftService.Infrastructure.csproj", "{965D2597-204A-422F-83C8-4B7B9EACB1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HajorPay.ThriftService.API", "src\HajorPay.ThriftService.API\HajorPay.ThriftService.API.csproj", "{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E418ED1C-789E-4DF1-9084-472856433FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E418ED1C-789E-4DF1-9084-472856433FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E418ED1C-789E-4DF1-9084-472856433FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E418ED1C-789E-4DF1-9084-472856433FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965D2597-204A-422F-83C8-4B7B9EACB1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965D2597-204A-422F-83C8-4B7B9EACB1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965D2597-204A-422F-83C8-4B7B9EACB1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965D2597-204A-422F-83C8-4B7B9EACB1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530} = {82F2FA19-043B-4D67-BC74-480327D81DA5}
+		{E418ED1C-789E-4DF1-9084-472856433FE2} = {82F2FA19-043B-4D67-BC74-480327D81DA5}
+		{965D2597-204A-422F-83C8-4B7B9EACB1BD} = {82F2FA19-043B-4D67-BC74-480327D81DA5}
+		{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D} = {82F2FA19-043B-4D67-BC74-480327D81DA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F5880CB-5679-4A10-81D1-32E3BB55214D}
+	EndGlobalSection
+EndGlobal
