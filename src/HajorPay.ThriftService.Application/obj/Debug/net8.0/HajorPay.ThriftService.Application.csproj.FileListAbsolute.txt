@@ -1,0 +1,16 @@
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\bin\Debug\net8.0\HajorPay.ThriftService.Application.deps.json
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\bin\Debug\net8.0\HajorPay.ThriftService.Application.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\bin\Debug\net8.0\HajorPay.ThriftService.Application.pdb
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.AssemblyInfoInputs.cache
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.AssemblyInfo.cs
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\refint\HajorPay.ThriftService.Application.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.pdb
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\ref\HajorPay.ThriftService.Application.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\bin\Debug\net8.0\HajorPay.ThriftService.Domain.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\bin\Debug\net8.0\HajorPay.ThriftService.Domain.pdb
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.csproj.AssemblyReference.cache
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.ThriftService.Application.sourcelink.json
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Application\obj\Debug\net8.0\HajorPay.A4870937.Up2Date

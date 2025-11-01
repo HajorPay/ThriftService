@@ -1,0 +1,12 @@
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.AssemblyInfoInputs.cache
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.AssemblyInfo.cs
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\bin\Debug\net8.0\HajorPay.ThriftService.Domain.deps.json
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\bin\Debug\net8.0\HajorPay.ThriftService.Domain.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\bin\Debug\net8.0\HajorPay.ThriftService.Domain.pdb
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\refint\HajorPay.ThriftService.Domain.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.pdb
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\ref\HajorPay.ThriftService.Domain.dll
+C:\Users\Samuel\source\repos\ThriftService\src\HajorPay.ThriftService.Domain\obj\Debug\net8.0\HajorPay.ThriftService.Domain.sourcelink.json
