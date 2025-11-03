@@ -556,12 +556,6 @@ C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets\msbuild.HajorPay.ThriftService.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets\msbuild.HajorPay.ThriftService.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets\msbuild.build.HajorPay.ThriftService.API.props
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HajorPay.ThriftService.API.props
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HajorPay.ThriftService.API.props
-C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\HajorPay.AD398CE4.Up2Date
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\HajorPay.ThriftService.API.dll
@@ -569,3 +563,10 @@ C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\HajorPay.ThriftService.API.pdb
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\HajorPay.ThriftService.API.genruntimeconfig.cache
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\ref\HajorPay.ThriftService.API.dll
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\bin\Debug\net8.0\Identity\PasswordLists\10-million-password-list-top-1000.txt
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\bin\Debug\net8.0\Identity\PasswordLists\PasswordLists.cs
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.API\obj\Debug\net8.0\staticwebassets.build.json.cache

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\HajorPay.ThriftService.API.props" />
-</Project>

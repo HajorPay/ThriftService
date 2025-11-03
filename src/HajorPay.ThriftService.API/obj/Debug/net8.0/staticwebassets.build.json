@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "UWJWYXm1ctY6fjvESPGMQ8abXaKuOQjn4sCYwQ1hXqQ=",
-  "Source": "HajorPay.ThriftService.API",
-  "BasePath": "_content/HajorPay.ThriftService.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"UWJWYXm1ctY6fjvESPGMQ8abXaKuOQjn4sCYwQ1hXqQ=","Source":"HajorPay.ThriftService.API","BasePath":"_content/HajorPay.ThriftService.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

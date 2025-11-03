@@ -38,3 +38,5 @@ C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrast
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrastructure\obj\Debug\net8.0\HajorPay.ThriftService.Infrastructure.pdb
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrastructure\obj\Debug\net8.0\HajorPay.ThriftService.Infrastructure.genruntimeconfig.cache
 C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrastructure\obj\Debug\net8.0\ref\HajorPay.ThriftService.Infrastructure.dll
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrastructure\bin\Debug\net8.0\Identity\PasswordLists\10-million-password-list-top-1000.txt
+C:\Users\hands\STARTUP-PROJECTS\ThriftService\src\HajorPay.ThriftService.Infrastructure\bin\Debug\net8.0\Identity\PasswordLists\PasswordLists.cs
