@@ -22,7 +22,7 @@ WORKDIR /src/src/HajorPay.ThriftService.API
 RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 
 
-# ==========================
+# ========================
 # STAGE 2: RUNTIME
 # ==========================
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
