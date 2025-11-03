@@ -25,19 +25,15 @@ RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false
 # ========================
 # STAGE 2: RUNTIME
 # ==========================
-# ========================
-# STAGE 2: RUNTIME
-# ========================
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
 # Copy the published output from build stage
 COPY --from=build /app/publish .
 
-# Let Kestrel listen on Cloud Run's dynamic port
-ENV ASPNETCORE_URLS=http://+:${PORT:-8080}
+# Expose the Cloud Run port
+ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
 # Start the API
 ENTRYPOINT ["dotnet", "HajorPay.ThriftService.API.dll"]
-

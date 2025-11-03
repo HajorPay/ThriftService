@@ -1,4 +1,4 @@
-using HajorPay.ThriftService.API.Middlewares;
+﻿using HajorPay.ThriftService.API.Middlewares;
 using HajorPay.ThriftService.Application;
 using HajorPay.ThriftService.Infrastructure;
 using HajorPay.ThriftService.Infrastructure.Contexts;
@@ -13,6 +13,13 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// ✅ Configure Kestrel to listen on the correct port for Cloud Run
+builder.WebHost.ConfigureKestrel(options =>
+{
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+    options.ListenAnyIP(int.Parse(port));
+});
 
 
 builder.Services.AddControllers();
@@ -110,7 +117,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-//TODO: Your password was rejected because it is in a list of common passwords. Since we don�t want other people to easily guess your password, please choose another one.
+//TODO: Your password was rejected because it is in a list of common passwords. Since we don’t want other people to easily guess your password, please choose another one.
 //TODO: check null checks in validators
 //how to throow exception in createuser/registeruser
 
@@ -136,9 +143,5 @@ app.UseAuthorization();
 
 
 app.MapControllers();
-
-// Listen on the port provided by Cloud Run
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-app.Urls.Add($"http://0.0.0.0:{port}");
 
 app.Run();

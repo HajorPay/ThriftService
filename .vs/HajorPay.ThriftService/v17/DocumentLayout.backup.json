@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965D2597-204A-422F-83C8-4B7B9EACB1BD}|src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965D2597-204A-422F-83C8-4B7B9EACB1BD}|src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj|solutionrelative:src\\hajorpay.thriftservice.infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -35,20 +47,8 @@
       "RelativeMoniker": "D:0:0:{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}|src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj|solutionrelative:src\\hajorpay.thriftservice.application\\features\\user\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2999F2-7CE1-4EDE-B44F-6858C08C2F5D}|src\\HajorPay.ThriftService.API\\HajorPay.ThriftService.API.csproj|solutionrelative:src\\hajorpay.thriftservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}|src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.application\\features\\user\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDE1AC9A-B7C5-4234-BBBA-01350EFB6530}|src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj|solutionrelative:src\\hajorpay.thriftservice.application\\features\\user\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{965D2597-204A-422F-83C8-4B7B9EACB1BD}|src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj|c:\\users\\hands\\startup-projects\\thriftservice\\src\\hajorpay.thriftservice.infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{965D2597-204A-422F-83C8-4B7B9EACB1BD}|src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj|solutionrelative:src\\hajorpay.thriftservice.infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -289,17 +289,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\HajorPay.ThriftService.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T22:27:53.678Z",
               "IsPinned": true,
@@ -307,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Infrastructure\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Infrastructure\\Contexts\\ApplicationDbContext.cs",
@@ -316,11 +316,38 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T23:59:40.795Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Program.cs",
+              "RelativeToolTip": "src\\HajorPay.ThriftService.API\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T03:24:13.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\HajorPay.ThriftService.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-01T15:55:34.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\appsettings.json",
@@ -333,20 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\Program.cs",
-              "ToolTip": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Program.cs",
-              "RelativeToolTip": "src\\HajorPay.ThriftService.API\\Program.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwI0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T03:24:13.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HajorPay.ThriftService.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Infrastructure\\HajorPay.ThriftService.Infrastructure.csproj",
@@ -359,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "10-million-password-list-top-1000.txt",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Infrastructure\\Identity\\PasswordLists\\10-million-password-list-top-1000.txt",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Infrastructure\\Identity\\PasswordLists\\10-million-password-list-top-1000.txt",
@@ -372,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PasswordLists.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Infrastructure\\Identity\\PasswordLists\\PasswordLists.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Infrastructure\\Identity\\PasswordLists\\PasswordLists.cs",
@@ -385,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GlobalExceptionHandler.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\Middlewares\\GlobalExceptionHandler.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\Middlewares\\GlobalExceptionHandler.cs",
@@ -398,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LoginUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\Features\\User\\Commands\\LoginUserCommand.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Application\\Features\\User\\Commands\\LoginUserCommand.cs",
@@ -411,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Infrastructure\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Infrastructure\\Services\\UserService.cs",
@@ -424,19 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.API\\appsettings.Development.json",
-              "RelativeToolTip": "src\\HajorPay.ThriftService.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-01T15:55:34.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "src\\HajorPay.ThriftService.Application\\Features\\User\\Commands\\CreateUserCommand.cs",
