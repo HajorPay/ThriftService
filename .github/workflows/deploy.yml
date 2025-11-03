@@ -38,7 +38,7 @@ jobs:
           REPO_NAME="my-repo"
           REGION="us-central1"
           if ! gcloud artifacts repositories describe $REPO_NAME --location=$REGION >/dev/null 2>&1; then
-            echo "Creating Artifact Registry repository '$REPO_NAME'..."
+            echo "🧱 Creating Artifact Registry repository '$REPO_NAME'..."
             gcloud artifacts repositories create $REPO_NAME \
               --repository-format=docker \
               --location=$REGION \
@@ -52,15 +52,28 @@ jobs:
         run: |
           IMAGE_TAG="us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/my-repo/hajorpay-thriftservice:$(date +%Y%m%d%H%M%S)"
           echo "🛠 Building and pushing Docker image: $IMAGE_TAG"
-          gcloud builds submit . --tag $IMAGE_TAG
           echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
+
+          set +e
+          BUILD_OUTPUT=$(gcloud builds submit . --tag "$IMAGE_TAG" 2>&1)
+          BUILD_STATUS=$?
+          set -e
+
+          BUILD_URL=$(echo "$BUILD_OUTPUT" | grep -o "https://console.cloud.google.com/cloud-build/builds/[a-z0-9-]*?project=[0-9]*" | head -n 1)
+          echo "🧩 Cloud Build URL: $BUILD_URL"
+
+          if [ $BUILD_STATUS -ne 0 ]; then
+            echo "⚠️ Cloud Build failed or logs not accessible due to VPC-SC restrictions."
+            echo "View logs directly at: $BUILD_URL"
+            exit 1
+          fi
 
       # 6️⃣ Deploy to Cloud Run
       - name: Deploy to Cloud Run
         run: |
           echo "🚀 Deploying image: $IMAGE_TAG"
           gcloud run deploy hajorpay-thriftservice \
-            --image $IMAGE_TAG \
+            --image "$IMAGE_TAG" \
             --platform managed \
             --region us-central1 \
             --allow-unauthenticated \
@@ -69,7 +82,23 @@ jobs:
       # 7️⃣ Output deployed service URL
       - name: Output service URL
         run: |
-          echo "✅ Deployment successful!"
-          gcloud run services describe hajorpay-thriftservice \
+          SERVICE_URL=$(gcloud run services describe hajorpay-thriftservice \
             --region us-central1 \
-            --format 'value(status.url)'
+            --format 'value(status.url)')
+          echo "✅ Deployment successful!"
+          echo "🌍 Service URL: $SERVICE_URL"
+
+      # 8️⃣ Cleanup old Docker images (runs ONLY if everything succeeded)
+      - name: Clean up old Docker images
+        if: ${{ success() }}
+        run: |
+          REPO_PATH="us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/my-repo/hajorpay-thriftservice"
+          echo "🧹 Cleaning up old images in $REPO_PATH..."
+          IMAGES=$(gcloud artifacts docker images list $REPO_PATH --sort-by=~UPDATE_TIME --format="value(version)" | tail -n +4)
+          if [ -n "$IMAGES" ]; then
+            echo "🗑 Deleting old image versions:"
+            echo "$IMAGES"
+            echo "$IMAGES" | xargs -I {} gcloud artifacts docker images delete "$REPO_PATH:{}" --delete-tags --quiet || true
+          else
+            echo "✅ No old images to delete — only the latest 3 retained."
+          fi
