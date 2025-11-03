@@ -28,6 +28,11 @@
   <ItemGroup>
     <EmbeddedResource Include="Identity\PasswordLists\10-million-password-list-top-1000.txt" />
   </ItemGroup>
+
+  <ItemGroup>
+	  <!-- Copy all files in Identity/PasswordLists to the output directory -->
+	  <None Include="Identity\PasswordLists\**\*" CopyToOutputDirectory="Always" />
+  </ItemGroup>
   
   <ItemGroup>
     <Folder Include="Migrations\" />
