@@ -51,26 +51,6 @@ jobs:
       - name: Build Docker image with Cloud Build
         run: |
           IMAGE_TAG="us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/my-repo/hajorpay-thriftservice:$(date +%Y%m%d%H%M%S)"
-          echo "🛠 Building and pushing Docker image: $IMAGE_TAG"
-          echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
-
-          # Run gcloud build but don't fail on log streaming issues
-          set +e
-          BUILD_OUTPUT=$(gcloud builds submit . --tag "$IMAGE_TAG" 2>&1)
-          BUILD_STATUS=$?
-          set -e
-
-          # Extract Cloud Build URL if present
-          BUILD_URL=$(echo "$BUILD_OUTPUT" | grep -o "https://console.cloud.google.com/cloud-build/builds/[a-z0-9-]*?project=[0-9]*" | head -n 1)
-          if [ -z "$BUILD_URL" ]; then
-            BUILD_URL="https://console.cloud.google.com/cloud-build/builds?project=${{ secrets.GCP_PROJECT_ID }}"
-          fi
-          echo "🧩 Cloud Build URL: $BUILD_URL"
-
-          if [ $BUILD_STATUS -ne 0 ]; then
-            echo "⚠️ Cloud Build may have log restrictions due to VPC-SC."
-            echo "View the build logs here: $BUILD_URL"
-          fi
 
       # 6️⃣ Deploy to Cloud Run
       - name: Deploy to Cloud Run
@@ -91,18 +71,3 @@ jobs:
             --format 'value(status.url)')
           echo "✅ Deployment successful!"
           echo "🌍 Service URL: $SERVICE_URL"
-
-      # 8️⃣ Cleanup old Docker images (runs ONLY if everything succeeded)
-      - name: Clean up old Docker images
-        if: ${{ success() }}
-        run: |
-          REPO_PATH="us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/my-repo/hajorpay-thriftservice"
-          echo "🧹 Cleaning up old images in $REPO_PATH..."
-          IMAGES=$(gcloud artifacts docker images list $REPO_PATH --sort-by=~UPDATE_TIME --format="value(version)" | tail -n +4)
-          if [ -n "$IMAGES" ]; then
-            echo "🗑 Deleting old image versions:"
-            echo "$IMAGES"
-            echo "$IMAGES" | xargs -I {} gcloud artifacts docker images delete "$REPO_PATH:{}" --delete-tags --quiet || true
-          else
-            echo "✅ No old images to delete — only the latest 3 retained."
-          fi

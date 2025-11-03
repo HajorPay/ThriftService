@@ -14,14 +14,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Configure Kestrel to listen on the correct port for Cloud Run
-builder.WebHost.ConfigureKestrel(options =>
-{
-    var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-    options.ListenAnyIP(int.Parse(port));
-});
-
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
