@@ -128,7 +128,12 @@ if (app.Environment.IsDevelopment())
 
 //app.MapIdentityApi<ApplicationUser>();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+
+if (!app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HajorPay.ThriftService.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16eaef11327550933204453e3da69ca22b04ca77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+206d884794e5910f0018e808bdb00ce403822696")]
 [assembly: System.Reflection.AssemblyProductAttribute("HajorPay.ThriftService.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HajorPay.ThriftService.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
