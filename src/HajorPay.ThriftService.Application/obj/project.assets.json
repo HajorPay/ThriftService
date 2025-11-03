@@ -230,23 +230,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Samuel\\.nuget\\packages\\": {},
+    "C:\\Users\\hands\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
+      "projectUniqueName": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
       "projectName": "HajorPay.ThriftService.Application",
-      "projectPath": "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
-      "packagesPath": "C:\\Users\\Samuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Application\\obj\\",
+      "projectPath": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
+      "packagesPath": "C:\\Users\\hands\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Samuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hands\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -255,15 +255,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Domain\\HajorPay.ThriftService.Domain.csproj": {
-              "projectPath": "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Domain\\HajorPay.ThriftService.Domain.csproj"
+            "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Domain\\HajorPay.ThriftService.Domain.csproj": {
+              "projectPath": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Domain\\HajorPay.ThriftService.Domain.csproj"
             }
           }
         }
@@ -277,7 +276,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -308,7 +308,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rmjshUqg7Qc=",
+  "dgSpecHash": "harFffx7mVI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Samuel\\source\\repos\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
+  "projectFilePath": "C:\\Users\\hands\\STARTUP-PROJECTS\\ThriftService\\src\\HajorPay.ThriftService.Application\\HajorPay.ThriftService.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Samuel\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\Samuel\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
+    "C:\\Users\\hands\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\hands\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\hands\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\hands\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }
